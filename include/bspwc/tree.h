@@ -19,6 +19,5 @@ struct node* node_create();
 void node_destroy(struct node* node);
 
 bool insert(enum insert_mode mode, struct node* root, struct node* child);
-bool is_leaf(struct node* node);
 
 #endif // TREE_H
